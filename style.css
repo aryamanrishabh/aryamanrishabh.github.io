@@ -11,7 +11,7 @@ button {
 }
 a {
     color: black;
-    
+     
     text-decoration: none;
 }
 a:hover {
@@ -30,7 +30,7 @@ head {
 * {
     font-family: 'Open Sans', sans-serif;
 }
-.main {
+.index {
     margin-top: 300px;
     font-size: 20px;
     margin-left: 150px;
@@ -38,4 +38,43 @@ head {
     text-align: center;
     font-weight: bold;
     line-height: 40px;
+}
+.about {
+    margin-top: 100px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 300px;
+    text-align: left;
+    line-height: 30px;
+}
+img {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.philosophy {
+    margin-top: 75px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 150px;
+    text-align: left;
+    line-height: 45px;
+}
+h1 {
+    font-size: 30px;
+}
+ul {
+    list-style-type: square;
+}
+i {
+    margin-top: 250px;
+    font-size: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center; 
+    font-weight: bold;
+    color:dodgerblue; 
 }
