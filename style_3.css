@@ -20,7 +20,8 @@ a:hover {
 span {
     font-weight: bolder;
     font-size: 50px;
-    margin-left: 50px;
+    margin-left: 50p
+    font-family: 'Libre Baskerville', serif;x;
 }
 head {
     background-color: white;
