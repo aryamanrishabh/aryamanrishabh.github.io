@@ -6,7 +6,8 @@ button {
     border: white;
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 18px;
+    margin-top: 20px;
 }
 a {
     color: black;
@@ -16,10 +17,23 @@ a {
 a:hover {
     cursor: pointer;
 }
-#main {
-    color:blue;
-}
 span {
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+head {
+    background-color: white;
+    color:black;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    margin-top: 300px;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-weight: bold;
 }
