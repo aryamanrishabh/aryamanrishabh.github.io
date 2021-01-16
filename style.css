@@ -72,8 +72,8 @@ ul {
 i {
     margin-top: 250px;
     font-size: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center; 
     font-weight: bold;
     color:dodgerblue; 
