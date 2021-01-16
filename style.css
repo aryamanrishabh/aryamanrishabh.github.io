@@ -6,7 +6,7 @@ button {
     border: white;
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 20px;
 }
 a {
@@ -36,4 +36,5 @@ head {
     margin-right: 150px;
     text-align: center;
     font-weight: bold;
+    line-height: 40px;
 }
