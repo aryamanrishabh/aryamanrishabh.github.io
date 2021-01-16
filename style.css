@@ -72,9 +72,20 @@ ul {
 i {
     margin-top: 250px;
     font-size: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 200px;
+    margin-right: 200px;
     text-align: center; 
     font-weight: bold;
-    color:dodgerblue; 
+    color:snow; 
+}
+body {
+    background-color:rgb(44, 51, 58);
+    color:snow;
+}
+.head {
+    background-color: snow;
+    color: black;
+}
+.philosophy h1 {
+    text-align: center;
 }
