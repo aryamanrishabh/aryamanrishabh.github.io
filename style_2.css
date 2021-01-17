@@ -116,4 +116,7 @@ body {
 }
 .foot {
     background-color: snow;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
