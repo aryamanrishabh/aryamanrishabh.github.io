@@ -73,31 +73,30 @@ ul {
     list-style-type: square;
 }
 #linkedin {
-    margin-top: 50px;
+    /*margin-top: 50px;
     margin-bottom: 50px;    
-    font-size: 30px;
-    margin-left: 40%;
+    margin-left: 40%;*/
     margin-right: 40px;
+    font-size: 30px;
     text-align: center; 
     font-weight: bold;
     color:rgb(44, 51, 58); 
 }
 #twitter {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 30px;
+    /*margin-top: 50px;
+    margin-bottom: 50px;*/
     margin-left: 40px;
     margin-right: 40px;
+    font-size: 30px;
     text-align: center; 
     font-weight: bold;
     color:rgb(44, 51, 58); 
 }
 #mail {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 30px;
+    /*margin-top: 50px;
+    margin-bottom: 50px;*/
     margin-left: 40px;
-    margin-right: 40%;
+    font-size: 30px;
     text-align: center; 
     font-weight: bold;
     color:rgb(44, 51, 58); 
@@ -117,4 +116,12 @@ body {
 }
 .foot {
     background-color: snow;
+}
+#buttons {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
