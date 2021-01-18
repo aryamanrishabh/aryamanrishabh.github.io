@@ -1,13 +1,13 @@
 button {
     float: right;
-    margin-right: 30px;
+    margin-right: 5vh;
     background-color: snow;
-    width: 180px;
+    width:30vh;
     border: white;
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 3vh;
 }
 a {
     color: black;
@@ -22,10 +22,8 @@ span {
     font-size: 50px;
     margin-left: 50px;
     font-family: 'Libre Baskerville', serif;
-}
-head {
-    background-color: white;
-    color:black;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 * {
     font-family: 'Open Sans', sans-serif;
@@ -108,6 +106,8 @@ body {
 .head {
     background-color: snow;
     color: black;
+    height: 90px;
+    padding-top: 25px;
 }
 .philosophy h1 {
     text-align: center;
