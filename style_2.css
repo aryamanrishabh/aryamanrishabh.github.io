@@ -1,0 +1,128 @@
+button {
+    float: right;
+    margin-right: 1vw;
+    background-color: snow;
+    width:30vh;
+    border: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 3vh;
+}
+a {
+    color: black;
+     
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+}
+span {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 50px;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.index {
+    margin-top: 300px;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 280px;
+    height: 100vh;
+}
+.about {
+    margin-top: 100px;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 280px;
+}
+img {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.philosophy {
+    margin-top: 75px;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 200px;
+    text-align: left;
+    line-height: 45px;
+    margin-bottom: 280px;
+}
+h1 {
+    font-size: 30px;
+}
+ul {
+    list-style-type: square;
+}
+#linkedin {
+    /*margin-top: 50px;
+    margin-bottom: 50px;    
+    margin-left: 40%;*/
+    margin-right: 40px;
+    font-size: 30px;
+    text-align: center; 
+    font-weight: bold;
+    color:rgb(44, 51, 58); 
+}
+#twitter {
+    /*margin-top: 50px;
+    margin-bottom: 50px;*/
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    text-align: center; 
+    font-weight: bold;
+    color:rgb(44, 51, 58); 
+}
+#mail {
+    /*margin-top: 50px;
+    margin-bottom: 50px;*/
+    margin-left: 40px;
+    font-size: 30px;
+    text-align: center; 
+    font-weight: bold;
+    color:rgb(44, 51, 58); 
+}
+body {
+    background-color:rgb(44, 51, 58);
+    color:snow;
+}
+.head {
+    background-color: snow;
+    color: black;
+    height: 90px;
+    padding-top: 25px;
+}
+.philosophy h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.foot {
+    background-color: snow;
+}
+#buttons {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
