@@ -71,9 +71,6 @@ ul {
     list-style-type: square;
 }
 #linkedin {
-    /*margin-top: 50px;
-    margin-bottom: 50px;    
-    margin-left: 40%;*/
     margin-right: 40px;
     font-size: 30px;
     text-align: center; 
@@ -81,8 +78,6 @@ ul {
     color:rgb(44, 51, 58); 
 }
 #twitter {
-    /*margin-top: 50px;
-    margin-bottom: 50px;*/
     margin-left: 40px;
     margin-right: 40px;
     font-size: 30px;
@@ -91,8 +86,6 @@ ul {
     color:rgb(44, 51, 58); 
 }
 #mail {
-    /*margin-top: 50px;
-    margin-bottom: 50px;*/
     margin-left: 40px;
     font-size: 30px;
     text-align: center; 
