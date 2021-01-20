@@ -10,13 +10,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="myScript.js" defer></script>
     </head>
     <body>
         <div class="head">
             <span id="name"><a href="index.html">Rahul Sinha</a></span>
-            <button type="button"><a href="Philosophy_page.html">My Philosophy</a></button> 
-            <button type="button"><a href="Resume.pdf" target="_blank">My Resume</a></button>
-            <button type="button"><a href="About_page.html">About</a></button>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="About_page.html">About</a>
+                    <a href="Resume.pdf" target="_blank">My Resume</a>
+                    <a href="Philosophy_page.html">My Philosophy</a>
+                </div>
+            </div>
         </div>
         <div class="index">
             <p>Pioneering turnaround top-level professional, equipped with skills in delivering remarkable business outcomes, resolving
