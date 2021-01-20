@@ -13,12 +13,15 @@
     </head>
     <body>
         <div class="head">
-            <hr>
             <span id="name"><a href="index.html">Rahul Sinha</a></span>
-            <button type="button"><a href="Philosophy_page.html">My Philosophy</a></button>
-            <button type="button"><a href="Resume.pdf" target="_blank">My Resume</a></button>
-            <button type="button"><a href="About_page.html">About</a></button>
-            <hr>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="About_page.html">About</a>
+                    <a href="Resume.pdf" target="_blank">My Resume</a>
+                    <a href="Philosophy_page.html">My Philosophy</a>
+                </div>
+            </div>
         </div>
         <div class="philosophy">
             <h1>My Mantras for Business</h1>

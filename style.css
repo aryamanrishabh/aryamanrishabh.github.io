@@ -137,7 +137,7 @@ body {
     top : -20px;
     position: relative;
 }
-.dropdown-content {
+.dropdown-content { 
     display: none;
     position: absolute;
     background-color: #f1f1f1;
