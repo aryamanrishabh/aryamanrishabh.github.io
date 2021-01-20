@@ -29,10 +29,10 @@ span {
     font-family: 'Open Sans', sans-serif;
 }
 .index {
-    margin-top: 300px;
+    margin-top: 30vh;
     font-size: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 40vw;
+    margin-right: 40vw;
     text-align: center;
     font-weight: bold;
     line-height: 40px;
