@@ -1,56 +1,101 @@
+.dropdown button {
+    color: white;
+    background: transparent;
+    margin-right: 10vw;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+}
+.head {
+    background: transparent;
+    color: white;
+    height: 9vh;
+    padding-top: 25px;
+}
 span {
-    font-weight: bolder;
-    font-size: 2rem;
-    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5vw;
     font-family: 'Libre Baskerville', serif;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: auto 0;
+}
+span a {
+    color: white;
 }
 * {
     font-family: 'Open Sans', sans-serif;
 }
-.index {
-    margin-top: 10vh;
-    font-size: 10px;
-    margin-left: 20vw;
-    margin-right: 20vw;
+#index p {
+    display: inline;
+    margin-left: 3vw;
+}
+#index {
+    margin: auto;
+    margin-top: 15vh;
+    font-size: 13px;
+    margin-left: 10vw;
+    margin-right: 10vw;
     text-align: center;
     font-weight: bold;
-    line-height: 20px;
-    margin-bottom: 280px;
-    height: 80vh;
+    line-height: 4vh;
 }
-.about {
-    margin-top: 10vh;
-    font-size: 15px;
-    margin-left: 10vh;
-    margin-right: 10vh;
+#about {
+    margin-top: 100px;
+    font-size: 13px;
+    margin-left: 8vw;
+    margin-right: 8vw;
     text-align: left;
-    line-height: 3vh;
-    margin-bottom: 10vh;
+    line-height: 2.5vh;
+    margin-bottom: 280px;
+    height: 100vh;
+}
+.left {
+    width: 75%;
+    float: left;
+}
+.right {
+    width: 25%;
+    float:left;
 }
 img {
-    float: right;
-    height: 200px;
-    width: 200px;
+    /*float: right;*/
+    height: 550px;
+    width: 250px;
+    margin-top: 4vh;
     margin-left: 30px;
     margin-bottom: 30px;
-    border-radius: 5px;
+    margin-right: 2vw;
 }
-.philosophy {
-    margin-top: 75px;
+#philosophy {
+    margin-top: 20vh;
     font-size: 15px;
-    margin-left: 10vw;
-    margin-right: 20vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
     text-align: left;
-    line-height: 3vh;
-    margin-bottom: 20vh;
+    line-height: 2.5vh;
+    margin-bottom: 280px;
+    height: 100vh;
+}
+#page1 {
+    width: 100%;
+    background-color: #86B3D1;
+    height: 100vh;
+    color: white;
 }
 h1 {
-    font-size: 30px;
+    font-size: 18px;
+    text-align: left;
+}
+#philosophy h1 {
+    margin-top: 10vh;
+    font-size: 18px;
+    text-align: left;
 }
 ul {
-    list-style-type: square;
+    list-style-type: none;
 }
 #linkedin {
     margin-right: 40px;
@@ -74,23 +119,13 @@ ul {
     font-weight: bold;
     color:rgb(44, 51, 58); 
 }
-body {
-    background-color:rgb(44, 51, 58);
-    color:snow;
-}
-.head {
-    background-color: snow;
-    color: black;
-    height: 90px;
-    padding-top: 25px;
-}
 .philosophy h1 {
     text-align: center;
     font-size: 45px;
     margin-bottom: 50px;
 }
 .foot {
-    background-color: snow;
+    background: transparent;
 }
 #buttons {
     display: block;
@@ -101,8 +136,10 @@ body {
     padding-bottom: 50px;
 }
 .dropbtn {
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 30px;
     border: none;
     cursor: pointer;
 }
@@ -114,14 +151,14 @@ body {
     position: relative;
     display: inline-block;
     float: right;
+    top : -20px;
     position: relative;
-    width: 10%;
 }
 .dropdown-content { 
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -132,6 +169,6 @@ body {
     display: block;
 }
 .dropdown-content a:hover {
-    background-color: #ddd
+    background-color: #ddd;
 }
 .show {display:block;}
