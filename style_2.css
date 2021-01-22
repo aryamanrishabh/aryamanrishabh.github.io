@@ -43,7 +43,7 @@ span a {
     line-height: 4vh;
 }
 #about {
-    margin-top: 100px;
+    margin-top: 5vh;
     font-size: 13px;
     margin-left: 8vw;
     margin-right: 8vw;
@@ -70,10 +70,10 @@ img {
     margin-right: 2vw;
 }
 #philosophy {
-    margin-top: 20vh;
+    margin-top: 5vh;
     font-size: 15px;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
     text-align: left;
     line-height: 2.5vh;
     margin-bottom: 280px;
