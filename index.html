@@ -1,34 +1,85 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Rahul Sinha</title>
-        <link rel="stylesheet" media="screen and (min-device-width: 841px)" href="style.css" />
-        <link rel="stylesheet" media="screen and (max-device-width: 840px)" href="style_2.css" />
         <script src="https://kit.fontawesome.com/eafd2ac13a.js" crossorigin="anonymous"></script>
-        <link href="style.css" type="text/css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="screen and (min-device-width: 841px)" href="./style.css" />
+        <link rel="stylesheet" media="screen and (max-device-width: 840px)" href="./style_2.css" />
         <script src="myScript.js" defer></script>
     </head>
     <body>
-        <div class="head">
-            <span id="name"><a href="index.html">Rahul Sinha</a></span>
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="About_page.html">About</a>
-                    <a href="Resume.pdf" target="_blank">My Resume</a>
-                    <a href="Philosophy_page.html">My Philosophy</a>
+        <div id="page1">
+            <div class="head">
+                <span id="name"><a href="index.html">RAHUL SINHA</a></span>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#about">About</a>
+                        <a href="Resume.pdf" target="_blank">My Resume</a>
+                        <a href="#philosophy">My Philosophy</a>
+                    </div>
                 </div>
             </div>
+            <div id="index">
+                <span><i class="fas fa-quote-left"></i></span>
+                <p>Pioneering turnaround top-level professional, equipped with skills in delivering remarkable business outcomes, resolving
+                    critical operational issues and generating multimillion dollar results. Veteran senior sales & business leader, tasked to
+                    promote performance-centric & excellence-driven culture for positioning the brand on top charts, from scratch.
+                </p><span><i class="fas fa-quote-right"></i></span>
+            </div>
         </div>
-        <div class="index">
-            <p>Pioneering turnaround top-level professional, equipped with skills in delivering remarkable business outcomes, resolving
-                critical operational issues and generating multimillion dollar results. Veteran senior sales & business leader, tasked to
-                promote performance-centric & excellence-driven culture for positioning the brand on top charts, from scratch.
-            </p>
+        <div id="about">
+            <h1>About Me</h1>
+            
+            <div class="left">
+                <p>I consider myself a result-oriented, award winning business leader with varied experience in planning and directing Sales 
+                    & marketing strategy, driving & scaling up business across all stages like start-up, stability, growth and maturity. 
+                    I am managing all Key Account functions by developing and executing a well-defined business, marketing and communication 
+                    strategy that support consistent business growth, increased visibility and strategic vision of the company.
+                    <br><br>
+                    I have devoted my career in developing the vision and leadership that fosters brand recognition and growth while positively 
+                    impacting businesses and communities. I excel in working in MNC’s, effectively collaborated with local as well as cross border 
+                    & cross functional teams based out of USA, UK, Germany, Italy, China, Singapore & Australia
+                    <br><br>
+                    My background consists of numerous achievements in the world of sales and marketing. From prospecting new clients and developing 
+                    markets to analyzing account activities and coaching and managing teams, I excel at directing all aspects of account management 
+                    while continually generating new business opportunities. Furthermore, I have regularly been selected over my peers to service large-scale, 
+                    top-generating corporate accounts in recognition of my outstanding customer service and relationship management talents.
+                    <br><br>
+                    I have an innate sense of task prioritization, managerial aptitude and result-oriented attitude towards accelerating organizational 
+                    growth and that too in a high pressured, time-bound and competitive environment. Let’s connect and discuss further! 
+                </p>
+            </div>
+            <div class="right">
+                <img src="profile.jpeg">
+            </div>
+        </div>
+        <div id="philosophy">
+            <h1>My Mantras for Business</h1>
+            <ul>
+                <li>Steadfast Integrity / Ethics, Candor at all level management and Quality in every aspect of business
+                    is non-negotiable.</li>
+                <li>Customer Focus</li>
+                <ul>
+                    <li>Never let anything get in the way of doing what is right for the customer.</li>
+                    <li>Give Customers a good, fair deal. Great customer relationships take time. Don’t let short term
+                        goals destroy this relationship.</li>
+                    <li>Always make it easier for customers to do business with you.</li>
+                    <li>Communicate with your existing and prospective customers on regular basis.</li>
+                    <li>Delight your customer on their Buying experience, Delivery experience, Product experience &
+                        Service experience.</li>
+                    <li>Ensure that every member of the team works around Customer Satisfaction so as to become
+                        Business Partner of choice in the eyes of the Customer.</li>
+                </ul>
+                <li>Encourage creative thinking and bias for action.</li>
+            </ul>
         </div>
         <div class="foot">
             <section id="buttons">
