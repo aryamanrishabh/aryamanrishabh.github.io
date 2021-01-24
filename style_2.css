@@ -43,7 +43,7 @@ span a {
 }
 #about {
     margin-top: 5vh;
-    font-size: 13px;
+    font-size: 15px;
     margin-left: 8vw;
     margin-right: 8vw;
     text-align: left;
@@ -55,10 +55,12 @@ span a {
 .left {
     width: 75%;
     float: left;
+    height: 40vh;
 }
 .right {
     width: 25%;
     float:left;
+    height: 40vh;
 }
 img {
     /*float: right;*/
@@ -108,6 +110,8 @@ h1 {
     margin-top: 10vh;
     font-size: 18px;
     text-align: left;
+    margin-left: 3vw;
+    margin-bottom: 4.5vh;
 }
 ul {
     list-style-type: none;
@@ -136,11 +140,6 @@ li {
     text-align: center; 
     font-weight: bold;
     color:rgb(44, 51, 58); 
-}
-.philosophy h1 {
-    text-align: center;
-    font-size: 45px;
-    margin-bottom: 50px;
 }
 .foot {
     background: transparent;
