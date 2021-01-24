@@ -51,7 +51,7 @@ span a {
     text-align: left;
     line-height: 30px;
     margin-bottom: 280px;
-    height: 100vh;
+    height: 80vh;
 }
 .left {
     width: 75%;
@@ -77,10 +77,9 @@ img {
     text-align: left;
     line-height: 45px;
     margin-bottom: 280px;
-    height: 100vh;
+    height: 40vh;
 }
 #page1 {
-    
     background-color: #86B3D1;
     height: 100vh;
     color: white;
@@ -166,3 +165,6 @@ ul {
     background-color: #ddd;
 }
 .show {display:block;}
+body {
+    margin: 0;
+}

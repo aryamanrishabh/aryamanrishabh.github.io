@@ -97,6 +97,7 @@ img {
     background-color: #86B3D1;
     height: 100vh;
     color: white;
+    margin: 0;
 }
 h1 {
     font-size: 18px;
