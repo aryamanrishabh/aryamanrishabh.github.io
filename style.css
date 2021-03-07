@@ -1,170 +1,159 @@
 .dropdown button {
-    color: white;
-    background: transparent;
-    margin-right: 75px;
+  color: white;
+  background: transparent;
+  margin-right: 75px;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .head {
-    background: transparent;
-    color: white;
-    height: 90px;
-    padding-top: 25px;
+  background: transparent;
+  color: white;
+  height: 90px;
+  padding-top: 25px;
 }
 span {
-    font-weight: bolder;
-    font-size: 40px;
-    margin-left: 50px;
-    font-family: 'Libre Baskerville', serif;
-    padding: auto 0;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 50px;
+  font-family: "Libre Baskerville", serif;
+  padding: auto 0;
 }
 span a {
-    color: white;
+  color: white;
 }
 * {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 #index p {
-    display: inline;
-    margin-left: 3vw;
+  display: inline;
+  margin-left: 3vw;
 }
 #index {
-    margin: auto;
-    margin-top: 280px;
-    font-size: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: center;
-    font-weight: bold;
-    line-height: 40px;
-    margin-bottom: 280px;
+  margin: auto;
+  margin-top: 280px;
+  font-size: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 40px;
+  margin-bottom: 280px;
 }
 #about {
-    margin-top: 100px;
-    font-size: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: left;
-    line-height: 30px;
-    margin-bottom: 280px;
-    height: 80vh;
+  margin-top: 100px;
+  font-size: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: left;
+  line-height: 30px;
+  margin-bottom: 280px;
+  height: 80vh;
 }
 .left {
-    width: 75%;
-    float: left;
+  width: 75%;
+  float: left;
 }
 .right {
-    width: 25%;
-    float:left;
+  width: 25%;
+  float: left;
 }
 img {
-    /*float: right;*/
-    height: 550px;
-    width: 250px;
-    margin-top: 4vh;
-    margin-left: 30px;
-    margin-bottom: 30px;
+  /*float: right;*/
+  height: 550px;
+  width: 250px;
+  margin-top: 4vh;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 #philosophy {
-    margin-top: 75px;
-    font-size: 18px;
-    margin-left: 150px;
-    margin-right: 200px;
-    text-align: left;
-    line-height: 45px;
-    margin-bottom: 280px;
-    height: 40vh;
+  margin-top: 75px;
+  font-size: 18px;
+  margin-left: 150px;
+  margin-right: 200px;
+  text-align: left;
+  line-height: 45px;
+  margin-bottom: 280px;
+  height: 40vh;
 }
 #page1 {
-    background-color: #86B3D1;
-    height: 100vh;
-    color: white;
+  background-color: #86b3d1;
+  height: 100vh;
+  color: white;
 }
 h1 {
-    font-size: 30px;
+  font-size: 30px;
 }
 ul {
-    list-style-type: none;
-}
-#linkedin {
-    margin-right: 40px;
-    font-size: 30px;
-    text-align: center; 
-    font-weight: bold;
-    color:rgb(44, 51, 58); 
-}
-#twitter {
-    margin-left: 40px;
-    margin-right: 40px;
-    font-size: 30px;
-    text-align: center; 
-    font-weight: bold;
-    color:rgb(44, 51, 58); 
-}
-#mail {
-    margin-left: 40px;
-    font-size: 30px;
-    text-align: center; 
-    font-weight: bold;
-    color:rgb(44, 51, 58); 
+  list-style-type: none;
 }
 .philosophy h1 {
-    text-align: center;
-    font-size: 45px;
-    margin-bottom: 50px;
+  display: block;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 50px;
 }
-.foot {
-    background: transparent;
+footer {
+  background-color: rgb(0, 64, 83);
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
-#buttons {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+#socials {
+  width: 25%;
+  margin: 0 auto 5% auto;
+  font-size: 40px;
+}
+#socials i {
+  padding-left: 7%;
+  padding-right: 7%;
+  color: white;
 }
 .dropbtn {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    font-size: 30px;
-    border: none;
-    cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
 }
-.dropbtn:hover, .dropbtn:focus {
-    background-color: rgb(44, 51, 58);
-    color:snow;
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: rgb(44, 51, 58);
+  color: snow;
 }
 .dropdown {
-    position: relative;
-    display: inline-block;
-    float: right;
-    top : -20px;
-    position: relative;
+  position: relative;
+  display: inline-block;
+  float: right;
+  top: -20px;
+  position: relative;
 }
-.dropdown-content { 
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 .dropdown-content a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
-.show {display:block;}
+.show {
+  display: block;
+}
 body {
-    margin: 0;
+  margin: 0;
+}
+#mobile {
+  display: none;
 }
